@@ -1,5 +1,5 @@
 # alfred-stock-price-workflow
-This is the workflow to get real-time stock price in US market.
+> Get real time stock price in US market! (Dow Jones, Nasdaq, S&P 500)
 
 ## To-do List
 - [ ] Icon for this workflow
@@ -10,10 +10,11 @@ This is the workflow to get real-time stock price in US market.
 - [ ] Add stock list (low priority)
 - [ ] Support company name search, not only stock symbol
 
+## Download
 
 ## API Library
-[IEX Developer Platform](https://iextrading.com/developer/)
-[IEX Developer API Document](https://iextrading.com/developer/docs/)
+* [IEX Developer Platform](https://iextrading.com/developer/)
+* [IEX Developer API Document](https://iextrading.com/developer/docs/)
 
 ### API Example
 ```
@@ -65,3 +66,6 @@ This API call will get the following response for stock `AAPL`.
     }
 }
 ```
+
+## License
+MIT © [Wei Xia](http://weixia.info/)
