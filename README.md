@@ -1,10 +1,28 @@
 # alfred-stock-price-workflow
 This is the workflow to get real-time stock price in US market.
 
-I tried to find a workflow for stock price in Alfred, but couldn't find a one works for US market, neither out of date, nor no longer update.
+## To-do List
+- [ ] Icon for this workflow
+- [ ] Error handling
+- [ ] Open Yahoo Finance after hitting `enter`
+- [ ] Add test (optional)
+- [ ] Publish this workflow
+- [ ] Add stock list (low priority)
+- [ ] Support company name search, not only stock symbol
 
 
-## Response from API
+## API Library
+[IEX Developer Platform](https://iextrading.com/developer/)
+[IEX Developer API Document](https://iextrading.com/developer/docs/)
+
+### API Example
+```
+https://api.iextrading.com/1.0/stock/aapl/batch?types=quote
+```
+
+This API call will get the following response for stock `AAPL`.
+
+### Response from API
 ```
 {
     "quote": {
