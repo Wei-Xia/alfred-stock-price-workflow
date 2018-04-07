@@ -17,7 +17,7 @@
 ## Usage
 
 ## Download
-[Click here](https://github.com/Wei-Xia/alfred-stock-price-workflow/blob/master/real-time-stock-price.alfredworkflow)
+[Release Page](https://github.com/Wei-Xia/alfred-stock-price-workflow/releases)
 
 ## API Library
 * [IEX Developer Platform](https://iextrading.com/developer/)
