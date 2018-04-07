@@ -4,11 +4,14 @@
 ## To-do List
 - [ ] Icon for this workflow
 - [ ] Error handling
-- [ ] Open Yahoo Finance after hitting `enter`
+- [ ] Open Yahoo Finance after hitting `enter` (low priority)
 - [ ] Add test (optional)
 - [ ] Publish this workflow
 - [ ] Add stock list (low priority)
 - [ ] Support company name search, not only stock symbol
+- [ ] Support global stock markets
+
+## Usage
 
 ## Download
 
