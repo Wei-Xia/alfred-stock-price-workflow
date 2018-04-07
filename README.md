@@ -3,6 +3,7 @@
 
 ## To-do List
 - [ ] Icon for this workflow
+- [ ] Up/Down indicator image for stock price
 - [ ] Error handling
 - [ ] Open Yahoo Finance after hitting `enter`
 - [ ] Add test (optional)
@@ -10,24 +11,27 @@
 - [ ] Add stock list (low priority)
 - [ ] Support company name search, not only stock symbol
 - [ ] Support global stock markets
-- [ ] Add top Gainers/Losers/MostActive for different keywords [API](https://iextrading.com/developer/docs/#list){:target="_blank"}
+- [ ] Add top Gainers/Losers/MostActive for different keywords [API](https://iextrading.com/developer/docs/#list)
+- [ ] Show market index change when starting keyword
 
 ## Usage
 
 ## Download
 
 ## API Library
-* [IEX Developer Platform](https://iextrading.com/developer/){:target="_blank"}
-* [IEX Developer API Document](https://iextrading.com/developer/docs/){:target="_blank"}
+* [IEX Developer Platform](https://iextrading.com/developer/)
+* [IEX Developer API Document](https://iextrading.com/developer/docs/)
 
 ### API Example
+
+#### Get quote detail from a symbol
 ```
 https://api.iextrading.com/1.0/stock/aapl/batch?types=quote
 ```
 
 This API call will get the following response for stock `AAPL`.
 
-### Response from API
+Response:
 ```
 {
     "quote": {
@@ -70,6 +74,8 @@ This API call will get the following response for stock `AAPL`.
     }
 }
 ```
+
+## Changelog
 
 ## License
 MIT © [Wei Xia](http://weixia.info/)
