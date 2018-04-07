@@ -4,20 +4,21 @@
 ## To-do List
 - [ ] Icon for this workflow
 - [ ] Error handling
-- [ ] Open Yahoo Finance after hitting `enter` (low priority)
+- [ ] Open Yahoo Finance after hitting `enter`
 - [ ] Add test (optional)
 - [ ] Publish this workflow
 - [ ] Add stock list (low priority)
 - [ ] Support company name search, not only stock symbol
 - [ ] Support global stock markets
+- [ ] Add top Gainers/Losers/MostActive for different keywords [API](https://iextrading.com/developer/docs/#list){:target="_blank"}
 
 ## Usage
 
 ## Download
 
 ## API Library
-* [IEX Developer Platform](https://iextrading.com/developer/)
-* [IEX Developer API Document](https://iextrading.com/developer/docs/)
+* [IEX Developer Platform](https://iextrading.com/developer/){:target="_blank"}
+* [IEX Developer API Document](https://iextrading.com/developer/docs/){:target="_blank"}
 
 ### API Example
 ```
