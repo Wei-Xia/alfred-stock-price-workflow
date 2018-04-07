@@ -7,7 +7,21 @@
 	<key>category</key>
 	<string>Tools</string>
 	<key>connections</key>
-	<dict/>
+	<dict>
+		<key>9EA5B173-848D-4BD3-BE3F-981BE9857083</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>78B35D5A-339C-486E-94E1-32B50DC79BD9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
 	<key>createdby</key>
 	<string>Wei Xia</string>
 	<key>description</key>
@@ -42,7 +56,7 @@
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string>3</string>
+				<string>Checking</string>
 				<key>script</key>
 				<string>./node_modules/.bin/run-node index.js "$1"</string>
 				<key>scriptargtype</key>
@@ -50,9 +64,9 @@
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>2</string>
+				<string></string>
 				<key>title</key>
-				<string>1</string>
+				<string>Add A Stock Symbol</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -65,15 +79,39 @@
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>78B35D5A-339C-486E-94E1-32B50DC79BD9</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
+		<key>78B35D5A-339C-486E-94E1-32B50DC79BD9</key>
+		<dict>
+			<key>xpos</key>
+			<integer>630</integer>
+			<key>ypos</key>
+			<integer>220</integer>
+		</dict>
 		<key>9EA5B173-848D-4BD3-BE3F-981BE9857083</key>
 		<dict>
 			<key>xpos</key>
-			<integer>840</integer>
+			<integer>480</integer>
 			<key>ypos</key>
 			<integer>220</integer>
 		</dict>
