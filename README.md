@@ -15,6 +15,7 @@
 - [ ] Show market index change when starting keyword
 
 ## Usage
+![01](/media/usage.gif)
 
 ## Download
 [Release Page](https://github.com/Wei-Xia/alfred-stock-price-workflow/releases)
