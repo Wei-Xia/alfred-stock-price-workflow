@@ -20,6 +20,9 @@
 ## Download
 [Release Page](https://github.com/Wei-Xia/alfred-stock-price-workflow/releases)
 
+## Known Issue
+- [ ] API doesn't work when markets are close. Will return `undefined`.
+
 ## API Library
 * [IEX Developer Platform](https://iextrading.com/developer/)
 * [IEX Developer API Document](https://iextrading.com/developer/docs/)
