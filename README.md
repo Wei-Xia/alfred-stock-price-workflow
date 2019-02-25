@@ -17,6 +17,9 @@
 ## Usage
 ![01](/media/usage.gif)
 
+or if you're preferring using `$`, you can download this version with supporint `$`.
+For example, you're looking for `AAPL`'s price, simply type `$aapl`, will return the correct price.
+
 ## Download
 [Release Page](https://github.com/Wei-Xia/alfred-stock-price-workflow/releases)
 
