@@ -1,3 +1,11 @@
+:warning::warning::warning::warning::warning::warning::warning:
+
+Due to an update on API endpoint, current workflow can't give correct response.
+
+THERE IS NO TIMELINE TO FIX IT. I WILL DO MY BEST.
+
+:warning::warning::warning::warning::warning::warning::warning:
+
 # alfred-stock-price-workflow
 > Get real time stock price in US market! (Dow Jones, Nasdaq, S&P 500)
 
