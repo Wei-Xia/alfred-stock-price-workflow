@@ -1,101 +1,114 @@
-:warning::warning::warning::warning::warning::warning::warning:
-
-Due to an update on API endpoint, current workflow can't give correct response.
-
-THERE IS NO TIMELINE TO FIX IT. I WILL DO MY BEST.
-
-:warning::warning::warning::warning::warning::warning::warning:
-
 # alfred-stock-price-workflow
+
 > Get real time stock price in US market! (Dow Jones, Nasdaq, S&P 500)
 
-## To-do List
-- [ ] Icon for this workflow
-- [ ] Up/Down indicator image for stock price
-- [ ] Error handling
-- [ ] Open Yahoo Finance after hitting `enter`
-- [ ] Add test (optional)
-- [ ] Publish this workflow
-- [ ] Add stock list (low priority)
-- [ ] Support company name search, not only stock symbol
-- [ ] Support global stock markets
-- [ ] Add top Gainers/Losers/MostActive for different keywords [API](https://iextrading.com/developer/docs/#list)
-- [ ] Show market index change when starting keyword
+## Release
 
-## Usage
-![01](/media/usage.gif)
+Latest Version is **v1.0 (September 10, 2020)**
 
-
-### With `${symbol}`
-If you're preferring using `$`, you can download this version with supporint `$`.
-For example, you're looking for `AAPL`'s price, simply type `$aapl`, will return the correct price.
-
-Download here: https://github.com/Wei-Xia/alfred-stock-price-workflow/releases/tag/v0.92
-
-## Download
 [Release Page](https://github.com/Wei-Xia/alfred-stock-price-workflow/releases)
 
+## Step by Step Instruction
+
+1. Go to [IEX Cloud website](https://iexcloud.io/s/da57dcd1) to register a new account.
+
+2. In IEX Cloud console, copy your own API Tokens.
+
+![002](/assets/002.jpg)
+
+3. Download the `stock.alfredworkflow` file, and import into your Alfred app.
+
+![001](/assets/001.jpg)
+
+4. Add your token into this workflow's configuration and variables. Variable name must be `token`, and value is your token from IEX Cloud.
+
+![003](/assets/003.jpg)
+
+5. Type `stock AAPL` to test it out. The result is the latest price in subject, subtitle is the change in percentage and 52-week low & high price.
+
+![01](/assets/usage.gif)
+
 ## Known Issue
+
 - [ ] API doesn't work when markets are close. Will return `undefined`.
 
 ## API Library
-* [IEX Developer Platform](https://iextrading.com/developer/)
-* [IEX Developer API Document](https://iextrading.com/developer/docs/)
+
+- [IEX Cloud API Document - Stock](https://iexcloud.io/docs/api/#quote)
 
 ### API Example
 
 #### Get quote detail from a symbol
+
 ```
-https://api.iextrading.com/1.0/stock/aapl/batch?types=quote
+https://cloud.iexapis.com/v1/stock/aapl/quote?token=${YOUR_TOKEN}
 ```
 
 This API call will get the following response for stock `AAPL`.
 
 Response:
+
 ```
 {
-    "quote": {
-        "symbol": "AAPL",
-        "companyName": "Apple Inc.",
-        "primaryExchange": "Nasdaq Global Select",
-        "sector": "Technology",
-        "calculationPrice": "close",
-        "open": 171.02,
-        "openTime": 1523021400347,
-        "close": 168.38,
-        "closeTime": 1523044800156,
-        "high": 172.48,
-        "low": 168.2,
-        "latestPrice": 168.38,
-        "latestSource": "Close",
-        "latestTime": "April 6, 2018",
-        "latestUpdate": 1523044800156,
-        "latestVolume": 34743599,
-        "iexRealtimePrice": 168.35,
-        "iexRealtimeSize": 111,
-        "iexLastUpdated": 1523044799801,
-        "delayedPrice": 168.47,
-        "delayedPriceTime": 1523045261620,
-        "previousClose": 172.8,
-        "change": -4.42,
-        "changePercent": -0.02558,
-        "iexMarketPercent": 0.03523,
-        "iexVolume": 1224017,
-        "avgTotalVolume": 34083025,
-        "iexBidPrice": 0,
-        "iexBidSize": 0,
-        "iexAskPrice": 0,
-        "iexAskSize": 0,
-        "marketCap": 854362308940,
-        "peRatio": 17.31,
-        "week52High": 183.5,
-        "week52Low": 140.06,
-        "ytdChange": 0.007224856537489812
-    }
+    "symbol": "AAPL",
+    "companyName": "Apple, Inc.",
+    "primaryExchange": "NASDAQ",
+    "calculationPrice": "iexlasttrade",
+    "open": null,
+    "openTime": null,
+    "openSource": "official",
+    "close": null,
+    "closeTime": null,
+    "closeSource": "official",
+    "high": null,
+    "highTime": 1599767376677,
+    "highSource": "15 minute delayed price",
+    "low": null,
+    "lowTime": 1599765385646,
+    "lowSource": "15 minute delayed price",
+    "latestPrice": 113.465,
+    "latestSource": "IEX Last Trade",
+    "latestTime": "September 10, 2020",
+    "latestUpdate": 1599767996317,
+    "latestVolume": null,
+    "iexRealtimePrice": 113.45,
+    "iexRealtimeSize": 1,
+    "iexLastUpdated": 1599768125766,
+    "delayedPrice": null,
+    "delayedPriceTime": null,
+    "oddLotDelayedPrice": null,
+    "oddLotDelayedPriceTime": null,
+    "extendedPrice": null,
+    "extendedChange": null,
+    "extendedChangePercent": null,
+    "extendedPriceTime": null,
+    "previousClose": 117.32,
+    "previousVolume": 176940455,
+    "change": -3.855,
+    "changePercent": -0.03286,
+    "volume": null,
+    "iexMarketPercent": 0.00636250051851494,
+    "iexVolume": 1142855,
+    "avgTotalVolume": 201473381,
+    "iexBidPrice": 0,
+    "iexBidSize": 0,
+    "iexAskPrice": 0,
+    "iexAskSize": 0,
+    "iexOpen": null,
+    "iexOpenTime": null,
+    "iexClose": 113.465,
+    "iexCloseTime": 1599767996317,
+    "marketCap": 1967176744500,
+    "peRatio": 34.19,
+    "week52High": 137.98,
+    "week52Low": 52.93,
+    "ytdChange": 0.529584,
+    "lastTradeTime": 1599768029914,
+    "isUSMarketOpen": false
 }
 ```
 
-## Changelog
-
 ## License
-MIT © [Wei Xia](http://weixia.info/)
+
+MIT © [Wei Xia](http://weixia.dev/)
+Contact: `hi#weixia.dev`
