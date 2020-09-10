@@ -8,6 +8,8 @@ Latest Version is **v1.0 (September 10, 2020)**
 
 [Release Page](https://github.com/Wei-Xia/alfred-stock-price-workflow/releases)
 
+or Download from this [direct link](https://github.com/Wei-Xia/alfred-stock-price-workflow/releases/download/1.0/Stock.alfredworkflow)
+
 ## Step by Step Instruction
 
 1. Go to [IEX Cloud website](https://iexcloud.io/s/da57dcd1) to register a new account.
@@ -16,7 +18,7 @@ Latest Version is **v1.0 (September 10, 2020)**
 
 ![002](/assets/002.jpg)
 
-3. Download the `stock.alfredworkflow` file, and import into your Alfred app.
+3. Download the `stock.alfredworkflow` file from this [direct link](https://github.com/Wei-Xia/alfred-stock-price-workflow/releases/download/1.0/Stock.alfredworkflow), and import into your Alfred app.
 
 ![001](/assets/001.jpg)
 
