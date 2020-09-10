@@ -5,7 +5,7 @@
 	<key>bundleid</key>
 	<string>com.weixia.info</string>
 	<key>category</key>
-	<string>Tools</string>
+	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
 		<key>9EA5B173-848D-4BD3-BE3F-981BE9857083</key>
@@ -116,6 +116,17 @@
 			<integer>220</integer>
 		</dict>
 	</dict>
+	<key>variables</key>
+	<dict>
+		<key>token</key>
+		<string>pk_1831e90c83fb4d70aa51d62dcb9a02ee</string>
+	</dict>
+	<key>variablesdontexport</key>
+	<array>
+		<string>token</string>
+	</array>
+	<key>version</key>
+	<string></string>
 	<key>webaddress</key>
 	<string>http://weixia.info/</string>
 </dict>

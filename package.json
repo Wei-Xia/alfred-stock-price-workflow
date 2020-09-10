@@ -8,8 +8,8 @@
   },
   "author": {
     "name": "Wei Xia",
-		"email": "xw900812@gmail.com",
-		"url": "http://weixia.info/"
+    "email": "hi@weixia.dev",
+    "url": "http://weixia.dev/"
   },
   "files": [
     "index.js",
@@ -19,7 +19,7 @@
     "alfy": "*"
   },
   "scripts": {
-		"postinstall": "alfy-init",
-		"preuninstall": "alfy-cleanup"
-	}
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  }
 }
