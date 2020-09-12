@@ -4,13 +4,11 @@
 
 ## Release
 
-Latest Version is **v1.0 (September 10, 2020)**
-
-[Release Page](https://github.com/Wei-Xia/alfred-stock-price-workflow/releases)
+Latest Version is **v1.0 (September 10, 2020)** - [Release Page](https://github.com/Wei-Xia/alfred-stock-price-workflow/releases)
 
 or Download from this [direct link](https://github.com/Wei-Xia/alfred-stock-price-workflow/releases/download/1.0/Stock.alfredworkflow)
 
-## Step by Step Instruction
+## Step-by-Step Instructions
 
 1. Go to [IEX Cloud website](https://iexcloud.io/s/da57dcd1) to register a new account.
 
@@ -30,9 +28,6 @@ or Download from this [direct link](https://github.com/Wei-Xia/alfred-stock-pric
 
 ![01](/assets/usage.gif)
 
-## Known Issue
-
-- [ ] API doesn't work when markets are close. Will return `undefined`.
 
 ## API Library
 
@@ -113,4 +108,5 @@ Response:
 ## License
 
 MIT © [Wei Xia](http://weixia.dev/)
+
 Contact: `hi#weixia.dev`
