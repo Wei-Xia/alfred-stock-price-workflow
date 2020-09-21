@@ -2,7 +2,7 @@ const alfy = require("alfy");
 
 const apiToken = process.env.token;
 
-alfy.fetch(`https://cloud.iexapis.com/v1/stock/${alfy.input}/quote?token=${apiToken}`)
+alfy.fetch(`https://cloud.iexapis.com/v1/stock/${alfy.input}/quote?token=${apiToken.trim()}`)
 	.then(result => {
 		// console.log(result);
 		const percentage = result.changePercent * 100;
