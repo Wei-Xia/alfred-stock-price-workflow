@@ -1,12 +1,20 @@
 # alfred-stock-price-workflow
 
-> Get real time stock price in US market! (Dow Jones, Nasdaq, S&P 500)
+> Get the real-time stock price from US stock market! (Dow Jones, Nasdaq, S&P 500) - stonks stonks stonks
 
-## Release
+## Install
 
-Latest Version is **v1.0 (September 10, 2020)** - [Release Page](https://github.com/Wei-Xia/alfred-stock-price-workflow/releases)
+Latest Version is **v1.1.2 (September 23, 2020)** - [Release Page](https://github.com/Wei-Xia/alfred-stock-price-workflow/releases)
 
 or Download from this [direct link](https://github.com/Wei-Xia/alfred-stock-price-workflow/releases/download/1.0/Stock.alfredworkflow)
+
+or via NPM
+
+```
+$ npm install --global alfred-real-time-stock-price
+```
+
+_Requires [Node.js](https://nodejs.org) 8+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/)._
 
 ## Step-by-Step Instructions
 
