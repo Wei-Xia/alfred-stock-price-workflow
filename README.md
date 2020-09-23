@@ -4,9 +4,9 @@
 
 ## Install
 
-Latest Version is **v1.1.2 (September 23, 2020)** - [Release Page](https://github.com/Wei-Xia/alfred-stock-price-workflow/releases)
+Latest Version is **v1.1.2 (September 23, 2020)**
 
-or Download from this [direct link](https://github.com/Wei-Xia/alfred-stock-price-workflow/releases/download/1.0/Stock.alfredworkflow)
+Download from this [Release Page](https://github.com/Wei-Xia/alfred-stock-price-workflow/releases)
 
 or via NPM
 
