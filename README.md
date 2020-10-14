@@ -24,7 +24,7 @@ _Requires [Node.js](https://nodejs.org) 8+ and the Alfred [Powerpack](https://ww
 
 ![002](/assets/002.jpg)
 
-3. Download the `stock.alfredworkflow` file from this [direct link](https://github.com/Wei-Xia/alfred-stock-price-workflow/releases/download/1.0/Stock.alfredworkflow), and import into your Alfred app.
+3. Download the latest `stock.alfredworkflow` file from [Release Page](https://github.com/Wei-Xia/alfred-stock-price-workflow/releases), and import into your Alfred app.
 
 ![001](/assets/001.jpg)
 
